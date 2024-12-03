@@ -1,4 +1,5 @@
-# Make a Copy of your Friend: AI Companion Development Resources
+# Friend LLM: AI Companion Development Resources
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a7532b34-7a75-4840-9c38-eef168162f98" width="400" alt="Project Illustration">
 </p>
@@ -6,10 +7,10 @@
 ## Project Overview
 Companion materials for the presentation "Make a Copy of your Friend: Very Meaningless LLM"
 
-## Code Files
-- **Friend_GPT.js**: Javascript code for a Cloudflare Worker server that enables a Telegram bot to initiate LLM chats using the "/friend_gpt" command.
-- **model_tuning.ipynb**: Jupyter Notebook with the code for training an LLM model on the Kaggle platform.
-  
+## Project Files
+- `Friend_GPT.js`: A Cloudflare Worker script for a Telegram bot that initializes an LLM chat with the `/friend_gpt` command.
+- `model_tuning.ipynb`: Jupyter notebook for training a custom LLM model on Kaggle.
+
 ## AI Development Tools
 
 ### Language Models
@@ -34,8 +35,6 @@ Companion materials for the presentation "Make a Copy of your Friend: Very Meani
 
 - **Kaggle**: Computational resources for model training
   - [Kaggle](https://www.kaggle.com/)
-
-
 
 ## Presentation
 [View Presentation Slides](https://docs.google.com/presentation/d/1SXJzhXNg7AbmrcmK0wZWLKhXmptjeBaEOugi0a1wLp4/edit?usp=sharing)
