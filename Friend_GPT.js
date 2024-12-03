@@ -11,7 +11,7 @@ export default {
       const { message } = payload;
       if (message) {
         const { chat: { id: chatId }, from: { id: userId, username }, text: input } = message;
-        const commands = { "/stas_gpt": this.initiateStasGpt };
+        const commands = { "/friend_gpt": this.initiateFriendGpt };
         const command = Object.keys(commands).find(cmd => input.startsWith(cmd));
 
         if (command) {
@@ -35,12 +35,12 @@ export default {
   },
 
   async callHandler(handler, apiKey, chatId, userId, hf, text) {
-    await handler.call(this, apiKey, chatId, userId, 'standard', 'TOOTHED/stas-gpt-new');
+    await handler.call(this, apiKey, chatId, userId, 'standard', 'AUTHOR/MODEL');
   },
 
-  async initiateStasGpt(apiKey, chatId, userId, promptType, modelName) {
+  async initiateFriendGpt(apiKey, chatId, userId, promptType, modelName) {
     state.pendingPrompts[userId] = { promptType, modelName };
-    const promptMessage = await this.sendMessageHTML(apiKey, chatId, '<b>💬Enter prompt for Stas GPT:</b>', "HTML", {
+    const promptMessage = await this.sendMessageHTML(apiKey, chatId, '<b>💬Enter prompt for Friend GPT:</b>', "HTML", {
       inline_keyboard: [[{ text: "Cancel", callback_data: "cancel_prompt" }]]
     });
     state.pendingPrompts[userId].messageId = promptMessage.result.message_id;
