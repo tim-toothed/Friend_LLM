@@ -1,4 +1,7 @@
-# Friend LLM: AI Companion Development Resources
+# Make a Copy of your Friend: AI Companion Development Resources
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a7532b34-7a75-4840-9c38-eef168162f98" width="400" alt="Project Illustration">
+</p>
 
 ## Project Overview
 Companion materials for the presentation "Make a Copy of your Friend: Very Meaningless LLM"
@@ -27,6 +30,8 @@ Companion materials for the presentation "Make a Copy of your Friend: Very Meani
 
 - **Kaggle**: Computational resources for model training
   - [Kaggle](https://www.kaggle.com/)
+
+
 
 ## Presentation
 [View Presentation Slides](https://docs.google.com/presentation/d/1SXJzhXNg7AbmrcmK0wZWLKhXmptjeBaEOugi0a1wLp4/edit?usp=sharing)
