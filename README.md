@@ -6,6 +6,10 @@
 ## Project Overview
 Companion materials for the presentation "Make a Copy of your Friend: Very Meaningless LLM"
 
+## Code Files
+- **Friend_GPT.js**: Javascript code for a Cloudflare Worker server that enables a Telegram bot to initiate LLM chats using the "/friend_gpt" command.
+- **model_tuning.ipynb**: Jupyter Notebook with the code for training an LLM model on the Kaggle platform.
+  
 ## AI Development Tools
 
 ### Language Models
@@ -35,9 +39,3 @@ Companion materials for the presentation "Make a Copy of your Friend: Very Meani
 
 ## Presentation
 [View Presentation Slides](https://docs.google.com/presentation/d/1SXJzhXNg7AbmrcmK0wZWLKhXmptjeBaEOugi0a1wLp4/edit?usp=sharing)
-
-## License
-[Add your license information here]
-
-## Contributing
-[Add contribution guidelines if applicable]
